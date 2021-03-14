@@ -18,12 +18,12 @@ public class Bank {
     public String creditUser(double amount){
         double newBalance = user.getBalance() + amount;
         this.user.setBalance(newBalance);
-        return amount + "euros added to your balance";
+        return amount + " Euros added to your balance";
     }
 
     public String debitUser(double amount){
         double newBalance = user.getBalance() - amount;
         this.user.setBalance(newBalance);
-        return amount + "euros taken out of account";
+        return amount + " Euros taken out of account";
     }
 }
